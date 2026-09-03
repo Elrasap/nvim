@@ -40,7 +40,7 @@ vim.api.nvim_create_autocmd("FileType", {
     pattern = { "c", "cpp" },
     callback = function()
         vim.opt_local.indentexpr = ""
-        vim.opt_local.cindent = false
+        vim.opt_local.cindent = true
         vim.opt_local.autoindent = true
         vim.opt_local.smartindent = false
     end,
