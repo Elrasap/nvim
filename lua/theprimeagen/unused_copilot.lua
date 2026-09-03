@@ -1,0 +1,1 @@
+-- Copilot remains disabled. No custom keymaps are defined here.
