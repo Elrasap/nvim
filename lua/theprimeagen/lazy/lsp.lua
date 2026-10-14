@@ -46,6 +46,7 @@ return {
                 "rust_analyzer",
                 "gopls",
                 "tailwindcss",
+                "jdtls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
