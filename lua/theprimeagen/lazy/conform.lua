@@ -12,8 +12,11 @@ return {
                 cpp = { "clang-format" },
                 lua = { "stylua" },
                 go = { "gofmt" },
+                java = { lsp_format = "prefer" },
                 javascript = { "prettier" },
                 typescript = { "prettier" },
+                javascriptreact = { "prettier" },
+                typescriptreact = { "prettier" },
                 elixir = { "mix" },
             },
             formatters = {
